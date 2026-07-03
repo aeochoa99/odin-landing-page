@@ -112,3 +112,21 @@ h1 {
 .img + p {
     text-align: center;
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+    font-size: 36px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.quote-container > .author {
+    align-self: flex-end;
+}
