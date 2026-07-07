@@ -91,6 +91,12 @@ h1 {
     gap: 50px;
 }
 
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .image-placeholders {
     min-width: 100vw;
     justify-content: center;
