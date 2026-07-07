@@ -98,7 +98,7 @@ h2 {
 }
 
 .image-placeholders {
-    min-width: 100vw;
+    min-width: 100%;
     justify-content: center;
     gap: 100px;
 }
@@ -163,5 +163,15 @@ h2 {
 }
 
 .call-to-action {
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #1F2937;
     color: #f9faf8;
 }
